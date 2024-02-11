@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+header{
+    background-color: #ccc;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    padding: 20px;
+    margin-top: 30px;
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#my-form {
+    background-color: #ccc;
+    padding: 15px;
+}
+
+#my-form input[type="text"]{
+    display: block;
+    padding: 4px;
+    height: 15px;
+    width: 250px;
+}
+
+.btn{
+    background-color: #333;
+    color: white;
+    padding: 4px;
+    width: 250px;
+}
+
+.container ul{
+    list-style: none;
+    display: grid;
+    grid-gap: 1em;
+    margin-top: 5px;
+}
+
+.container li{
+    background-color: #ccc;
+}
+
+
+
+.bg-dark{
+    background-color: rgb(53, 105, 87);
+    color: rgb(62, 36, 86);
+}
+
+.error{
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
+}
